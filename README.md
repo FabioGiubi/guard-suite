@@ -6,7 +6,7 @@ Three Android crackmes, one discipline each.
 |---|---|
 | **CipherGuard** | static analysis |
 | **HookGuard** | dynamic analysis |
-| **NetGuard** | certificate pinning |
+| **NetGuard** | public key pinning |
 
 Built for a talk — *From UnCrackable to Uncrackable*, masCon 2026, Berlin, 8 October — and
 they exist because the OWASP UnCrackable series has no target for pinning, and nothing that
