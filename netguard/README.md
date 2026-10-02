@@ -20,10 +20,11 @@ adb install netguard.apk
 
 ## If a card is red before you have started
 
-NetGuard pins live public endpoints, so it depends on certificates it does not control. Those
-rotate. Verified all-green on **1 October 2026**; one of the pinned certificates is expected to
-rotate around **late November 2026**, and when it does, that card will show red from the moment
-you open the app — with no proxy, nothing instrumented, and nothing wrong on your side.
+NetGuard pins the **public keys** of live endpoints, not their certificates, so it depends on keys
+it does not control. Verified all-green on **1 October 2026**. One of those certificates is due
+for renewal around **late November 2026**; if the key is rotated at renewal, that card will show
+red from the moment you open the app — with no proxy, nothing instrumented, and nothing wrong on
+your side.
 
 **This does not affect the exercise.** The job here is to defeat the check, and a defeated check
 accepts whatever certificate it is handed. Solve the card and it goes green exactly as it always
@@ -31,10 +32,9 @@ did, and the flag is exactly where it always was. What an expired pin costs you 
 *clean baseline* — the reassurance of seeing everything green before you begin.
 
 So if a card is red on first launch, do not go hunting for what you broke. Check the date, note
-that you have one less diagnostic to lean on, and carry on. That certificates expire out from
-under a pin is not a flaw in this app — it is the real, recurring, unglamorous cost of pinning,
+that you have one less diagnostic to lean on, and carry on. That keys rotate out from under a
+pin is not a flaw in this app — it is the real, recurring, unglamorous cost of pinning,
 and it is the part that never shows up in a tutorial.
-
 ## Please don't
 
 Post the pins, the bypass, or working proxy configs in the issues.
