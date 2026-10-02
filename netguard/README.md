@@ -1,6 +1,6 @@
 # NetGuard
 
-**Certificate pinning.** Level: the one with the most moving parts.
+**Public Key pinning.** Level: the one with the most moving parts.
 
 Three cards, each a different refusal. Getting the traffic in front of you is the harder half
 of this app — the part most pinning exercises skip, because they assume you already have a
