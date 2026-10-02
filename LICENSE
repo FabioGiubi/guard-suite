@@ -1,0 +1,47 @@
+The Guard Suite
+Copyright (c) 2026 Fabio Giubilo
+
+Licensed under the Creative Commons Attribution-NonCommercial 4.0 International
+licence (CC BY-NC 4.0).
+
+Full text:  https://creativecommons.org/licenses/by-nc/4.0/legalcode
+Summary:    https://creativecommons.org/licenses/by-nc/4.0/
+
+
+What this means in plain terms
+------------------------------
+
+You MAY, freely and without asking:
+
+  - download, install and solve these apps
+  - use them to learn, and to teach yourself
+  - use them in free workshops, study groups, university courses, CTFs, meetups
+    and internal upskilling that nobody is charged for
+  - write about them, blog about them, record videos about them
+  - share them with colleagues and students
+
+You MUST:
+
+  - credit the author. "The Guard Suite by Fabio Giubilo", with a link back to
+    this repository, is enough. If you write about them, say where they came from.
+
+You MAY NOT, without asking me first:
+
+  - sell them, or charge for access to them
+  - include them in a paid training course, bootcamp, certification or
+    commercial curriculum
+  - bundle them into a commercial product or service
+
+If you want to use these in something you charge for, just ask. I am not trying
+to make it difficult, I would simply like to be asked and credited.
+
+
+Scope
+-----
+
+This licence covers the three applications distributed here and the accompanying
+documentation. It does not grant rights to any third-party components inside the
+APKs, which remain under their own licences.
+
+These apps are deliberately vulnerable teaching artefacts. They are provided as
+is, with no warranty of any kind. Install them on a test device.
